@@ -22,20 +22,15 @@ https://donaldtsaoaccu.github.io/vue_Chatbot_accuhit/
 
 ## 圖片位址問題
 
- 有兩張圖片位址需自行修正，請照以下步驟操作
+ 有張圖片位址需自行修正，請照以下步驟操作
 
- 1. 懸浮icon的圖，在***accu/css/app.css***裡，有段`background:url(/vue_uniChatbot/img/uni_logo.png) `
- 請改成 --> 
-
-         background:url(../img/uni_logo.png) 
-
- 2. 對話機器人的圖，在***accu/js/app.js***裡，有段`{class:"img-circle",src:"cow.png",alt:"image"}` 就在第二行一開始，請改成 -->
+ 1. 對話機器人的圖，在***accu/js/app.js***裡，有段`{class:"img-circle",src:"accubot.jpg",alt:"image"}` 就在第二行一開始，請改成 -->
        
-        {class:"img-circle",src:"accu/cow.png",alt:"image"}
+        {class:"img-circle",src:"accu/accubot.jpg",alt:"image"}
 
 ## 如果想看本地index.html
 
-直接刪除前綴路徑()，開頭直接`js/app.js` 跟 `css/app.css` ，還有`href="accuhit.ico"`
+直接刪除前綴路徑()，直接留`js/app.js` 跟 `css/app.css` ，還有`href="accuhit.ico"`
 
 
 
