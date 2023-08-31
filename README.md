@@ -24,7 +24,7 @@ https://donaldtsaoaccu.github.io/vue_Chatbot_accuhit/
 
  有張圖片位址需自行修正，請照以下步驟操作
 
- 1. 對話機器人的圖，在***accu/js/app.js***裡，有段`{class:"img-circle",src:"accubot.jpg",alt:"image"}` 就在第二行一開始，請改成 -->
+對話機器人的圖，在***accu/js/app.js***裡，有段`{class:"img-circle",src:"accubot.jpg",alt:"image"}` 就在第二行一開始，請改成 -->
        
         {class:"img-circle",src:"accu/accubot.jpg",alt:"image"}
 
@@ -39,7 +39,6 @@ https://donaldtsaoaccu.github.io/vue_Chatbot_accuhit/
 
  - css樣式可能會被原生css影響到，可能導致單向影響或雙向影響
  - 圖檔位置可依資料夾位置自行更動
- - 此為大致定檔版本，如需自行修改圖檔及專案，請用 ***vue_Chatbot_picChange*** 或原始檔 ***vue_uniChatbot***
    
 
 
