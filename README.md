@@ -20,17 +20,17 @@ https://donaldtsaoaccu.github.io/vue_Chatbot_accuhit/
        
         <link rel="stylesheet" href="accu/css/app.css">
 
-## 圖片位址問題
+## 若AI頭像無法顯現
 
- 有張圖片位址需自行修正，請照以下步驟操作
+ 圖片位址需自行修正，請照以下步驟操作
 
-對話機器人的圖，在***accu/js/app.js***裡，有段`{class:"img-circle",src:"accubot.jpg",alt:"image"}` 就在第二行一開始，請改成 -->
+對話機器人的圖，在***accu/js/app.js***裡，有段`{class:"img-circle",src:"accuhit.png",alt:"image"}` 就在第二行一開始，請改成 -->
        
-        {class:"img-circle",src:"accu/accubot.jpg",alt:"image"}
+        {class:"img-circle",src:"accu/accuhit.png",alt:"image"}
 
 ## 如果想看本地index.html
 
-直接刪除前綴路徑()，直接留`js/app.js` 跟 `css/app.css` ，還有`href="accuhit.ico"`
+直接刪除前綴路徑，直接留`js/app.js` 跟 `css/app.css` ，還有`href="accuhit.ico"`
 
 
 
