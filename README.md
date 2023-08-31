@@ -5,8 +5,8 @@ https://donaldtsaoaccu.github.io/vue_Chatbot_accuhit/
 
 ### 使用方法
 
-1. 將vue_uniChatbot直接下載到專案裡 (vue_uniChatbot檔名可自取，ex.accu)
-2. 將檔案解壓縮，會有一個`vue_Chatbot_accuhit-main`的資料夾，將其重新命名(直接使用該名稱也行)
+1. 將vue_Chatbot_accuhit直接下載到自己的專案裡
+2. 將檔案解壓縮，並將解壓後的資料夾命名為accu
 3. 打開自己專案的入口頁面(以html為例)，在`<body></body>`標籤中新增 
     
         <div id="app"></div>
